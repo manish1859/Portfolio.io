@@ -1,12 +1,8 @@
 
       // Loading screen
-      window.addEventListener('load', () => {
-        const loading = document.getElementById('loading');
-        loading.style.opacity = '0';
-        setTimeout(() => {
-          loading.style.display = 'none';
-        }, 500);
-      });
+window.addEventListener("load", function () {
+  document.getElementById("loading").style.display = "none";
+});
 
       // Smooth scrolling
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
