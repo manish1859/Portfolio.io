@@ -273,8 +273,8 @@ window.addEventListener("load", function () {
 function CV(){
     document.getElementById("downloadBtn").addEventListener("click", function () {
       const link = document.createElement("a");
-      link.href = "FRONTEND.pdf"; // yaha apni pdf ka path do
-      link.download = "myfile.pdf"; // download hote time naam kya ho
+      link.href = "FRONTEND.pdf"; 
+      link.download = "Manish Singh Kushwah Portfolio .pdf";
       link.click();
     });
 }
