@@ -270,3 +270,11 @@ window.addEventListener("load", function () {
       console.log('🚀 Portfolio loaded successfully!');
       console.log('👨‍💻 Developed by Manish Singh Kushwah');
     
+function CV(){
+    document.getElementById("downloadBtn").addEventListener("click", function () {
+      const link = document.createElement("a");
+      link.href = "FRONTEND.pdf"; // yaha apni pdf ka path do
+      link.download = "myfile.pdf"; // download hote time naam kya ho
+      link.click();
+    });
+}
